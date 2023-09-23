@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['smartphone']
+
+roboflow:
+  workspace: spielbrecher
+  project: smartphone_in_hand
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/spielbrecher/smartphone_in_hand/dataset/1
