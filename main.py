@@ -8,7 +8,7 @@ def train():
     # Load a pretrained YOLO model (recommended for training)
     model = YOLO('yolov8n.pt')
     # Train the model using the 'coco128.yaml' dataset for 3 epochs
-    results = model.train(data='config.yaml', epochs=1)
+    results = model.train(data='config.yaml', epochs=1000)
     # Evaluate the model's performance on the validation set
     results = model.val()
 
